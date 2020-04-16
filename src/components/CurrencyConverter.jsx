@@ -43,7 +43,7 @@ class CurrencyConverter extends Component {
     } = this.state;
     if (fromCurrency !== toCurrency) {
       const result = amount * Data.rates[this.state.toCurrency];
-      this.setState({ convertedAmount: result.toFixed(5) });
+      this.setState({ convertedAmount: result.toFixed(3) });
     }
   };
 
