@@ -124,7 +124,7 @@ class CurrencyConverter extends Component {
                 </p>
               </div>
               <div className={styles.convertedAmountDisplay}>
-                = {convertedAmount}
+                {convertedAmount}
               </div>
             </center>
           </form>
