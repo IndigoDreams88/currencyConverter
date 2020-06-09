@@ -1,3 +1,9 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .converter {
   border: #333 solid 2px;
   width: 400px;
